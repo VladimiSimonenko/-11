@@ -1,0 +1,124 @@
+PS C:\Users\PCUser\Desktop\проект код1> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ConsoleApplication1/
+        app.exe
+        "\321\204\320\260\320\271\320\2731.cpp"
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\PCUser\Desktop\проект код1> git add .
+PS C:\Users\PCUser\Desktop\проект код1> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   ConsoleApplication1/.vs/ConsoleApplication1/FileContentIndex/57c468b0-df5f-4785-8a44-b6d2be999b2d.vsidx
+        new file:   ConsoleApplication1/.vs/ConsoleApplication1/v17/.suo
+        new file:   ConsoleApplication1/.vs/ConsoleApplication1/v17/Browse.VC.db
+        new file:   ConsoleApplication1/.vs/ConsoleApplication1/v17/DocumentLayout.backup.json
+        new file:   ConsoleApplication1/.vs/ConsoleApplication1/v17/DocumentLayout.json
+        new file:   ConsoleApplication1/.vs/ConsoleApplication1/v17/Solution.VC.db
+        new file:   ConsoleApplication1/.vs/ConsoleApplication1/v17/ipch/AutoPCH/7a725f00c2b6a86d/CONSOLEAPPLICATION1.ipch
+        new file:   ConsoleApplication1/ConsoleApplication1.sln
+        new file:   ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.cpp
+        new file:   ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.vcxproj
+        new file:   ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.vcxproj.filters
+        new file:   ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.vcxproj.user
+        new file:   ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/CL.command.1.tlog
+        new file:   ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/CL.read.1.tlog
+        new file:   ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/CL.write.1.tlog
+        new file:   ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/Cl.items.tlog
+        new file:   ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/ConsoleApplication1.lastbuildstate
+        new file:   ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/link.command.1.tlog
+        new file:   ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/link.read.1.tlog
+        new file:   ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/link.secondary.1.tlog
+        new file:   ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/link.write.1.tlog
+        new file:   ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleApplication1.exe.recipe
+        new file:   ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleApplication1.ilk
+        new file:   ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleApplication1.log
+        new file:   ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleApplication1.obj
+        new file:   ConsoleApplication1/ConsoleApplication1/x64/Debug/vc143.idb
+        new file:   ConsoleApplication1/ConsoleApplication1/x64/Debug/vc143.pdb
+        new file:   ConsoleApplication1/x64/Debug/ConsoleApplication1.exe
+        new file:   ConsoleApplication1/x64/Debug/ConsoleApplication1.pdb
+        new file:   app.exe
+        new file:   "\321\204\320\260\320\271\320\2731.cpp"
+
+PS C:\Users\PCUser\Desktop\проект код1> git commit -m "init"
+[master (root-commit) abd76f5] init
+ 31 files changed, 322 insertions(+)
+ create mode 100644 ConsoleApplication1/.vs/ConsoleApplication1/FileContentIndex/57c468b0-df5f-4785-8a44-b6d2be999b2d.vsidx
+ create mode 100644 ConsoleApplication1/.vs/ConsoleApplication1/v17/.suo
+ create mode 100644 ConsoleApplication1/.vs/ConsoleApplication1/v17/Browse.VC.db
+ create mode 100644 ConsoleApplication1/.vs/ConsoleApplication1/v17/DocumentLayout.backup.json
+ create mode 100644 ConsoleApplication1/.vs/ConsoleApplication1/v17/DocumentLayout.json
+ create mode 100644 ConsoleApplication1/.vs/ConsoleApplication1/v17/Solution.VC.db
+ create mode 100644 ConsoleApplication1/.vs/ConsoleApplication1/v17/ipch/AutoPCH/7a725f00c2b6a86d/CONSOLEAPPLICATION1.ipch
+ create mode 100644 ConsoleApplication1/ConsoleApplication1.sln
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.cpp
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.vcxproj
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.vcxproj.filters
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.vcxproj.user
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/CL.command.1.tlog
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/CL.read.1.tlog
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/CL.write.1.tlog
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/Cl.items.tlog
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/ConsoleApplication1.lastbuildstate
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/link.command.1.tlog
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/link.read.1.tlog
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/link.secondary.1.tlog
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleA.b9965b9b.tlog/link.write.1.tlog
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleApplication1.exe.recipe
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleApplication1.ilk
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleApplication1.log
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/x64/Debug/ConsoleApplication1.obj
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/x64/Debug/vc143.idb
+ create mode 100644 ConsoleApplication1/ConsoleApplication1/x64/Debug/vc143.pdb
+ create mode 100644 ConsoleApplication1/x64/Debug/ConsoleApplication1.exe
+ create mode 100644 ConsoleApplication1/x64/Debug/ConsoleApplication1.pdb
+ create mode 100644 app.exe
+ create mode 100644 "\321\204\320\260\320\271\320\2731.cpp"
+PS C:\Users\PCUser\Desktop\проект код1> git remote add origin https://github.com/VladimiSimonenko/-11.git
+PS C:\Users\PCUser\Desktop\проект код1> git branch -M main
+PS C:\Users\PCUser\Desktop\проект код1> git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 46, done.
+Counting objects: 100% (46/46), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (41/41), done.
+Writing objects: 100% (46/46), 13.35 MiB | 2.75 MiB/s, done.
+Total 46 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/VladimiSimonenko/-11.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\PCUser\Desktop\проект код1> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\PCUser\Desktop\проект код1> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "\320\235\320\276\320\262\321\213\320\271 \321\202\320\265\320\272\321\201\321\202\320\276\320\262\321\213\320\271 \320\264\320\276\320\272\321\203\320\274\320\265\320\275\321\202.txt"
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\PCUser\Desktop\проект код1> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\PCUser\Desktop\проект код1>
